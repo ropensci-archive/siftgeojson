@@ -1,0 +1,14 @@
+Package: siftgeojson
+Title: Sift 'GeoJSON'
+Description: Sift through 'GeoJSON' easily without having to convert to
+    spatial objects with heavy dependencies.
+Version: 0.0.1.9000
+License: MIT + file LICENSE
+Authors@R: person("Scott", "Chamberlain", role = c("aut", "cre"), email = "myrmecocystus@gmail.com")
+URL: https://github.com/ropenscilabs/siftgeojson
+BugReports: https://github.com/ropenscilabs/siftgeojson/issues
+Imports:
+    jqr (>= 0.2.0)
+Suggests:
+    testthat
+RoxygenNote: 5.0.1
