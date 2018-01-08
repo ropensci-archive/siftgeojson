@@ -1,9 +1,8 @@
 language: r
+sudo: false
+cache: packages
+dist: trusty
 
-sudo: required
-
-r_github_packages:
- - ropensci/jqr
 
 notifications:
   email:
