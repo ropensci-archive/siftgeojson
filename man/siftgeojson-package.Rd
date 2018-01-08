@@ -2,8 +2,8 @@
 % Please edit documentation in R/siftgeojson-package.R
 \docType{package}
 \name{siftgeojson-package}
-\alias{siftgeojson}
 \alias{siftgeojson-package}
+\alias{siftgeojson}
 \title{sift geojson}
 \description{
 sift geojson
@@ -12,4 +12,3 @@ sift geojson
 Scott Chamberlain \email{myrmecocystus@gmail.com}
 }
 \keyword{package}
-

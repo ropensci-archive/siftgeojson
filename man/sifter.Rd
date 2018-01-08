@@ -41,4 +41,3 @@ res <- sifter(json, COUNTY == Multnomah)
 ## check that only Multnomah County came back
 res \%>\% jqr::index() \%>\% jqr::dotstr(properties.COUNTY)
 }
-

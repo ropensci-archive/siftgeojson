@@ -42,4 +42,3 @@ json2 <- sift_client(json, '.features[] | select(.properties.COUNTY == "Multnoma
 dat <- jsonlite::fromJSON(json2, FALSE)
 leaflet() \%>\% addTiles() \%>\% addGeoJSON(dat) \%>\% setView(-122.6, 45.5, zoom = 10)
 }
-
